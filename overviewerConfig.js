@@ -27,7 +27,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1664826034",
+        "cacheTag": "1664992916",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -41,11 +41,11 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "TPW3",
+            "name": "Jour",
             "zoomLevels": 9,
             "defaultZoom": 1,
             "maxZoom": 9,
-            "path": "TPW3",
+            "path": "Jour",
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "TPW3 - overworld",
@@ -67,6 +67,34 @@ var overviewerConfig = {
                 79
             ],
             "north_direction": 3
+        },
+        {
+            "name": "Nuit",
+            "zoomLevels": 8,
+            "defaultZoom": 1,
+            "maxZoom": 8,
+            "path": "Nuit",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "TPW3 - overworld",
+            "last_rendertime": 1664821982,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                -717,
+                46,
+                79
+            ],
+            "lastrenderversion": 2,
+            "minZoom": 0,
+            "spawn": [
+                -717,
+                46,
+                79
+            ],
+            "north_direction": 0
         }
     ]
 };
